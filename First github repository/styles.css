@@ -1,0 +1,13 @@
+body{
+	background-image:url("https://yekarlo.hol.es/icon.png");
+}
+h1{
+	color:white;
+	text-align:Left;
+}
+p{
+	color:Red;
+	border-style:dotted;
+	font-family:times new roman;
+	text-align:Left;
+}
