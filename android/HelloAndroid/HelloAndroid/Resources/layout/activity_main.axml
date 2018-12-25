@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<TextView
+		android:text="Feedback !"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"	
+		android:id="@+id/textView1" />
+	<EditText
+		android:minWidth="500px"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/textView1"
+		android:id="@+id/PhoneNumberText"
+		android:text=""/>
+	<Button
+		android:text="Submit"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/PhoneNumberText"
+		android:id="@+id/SubmitButton"
+		android:textAllCaps="false"/>
+	<TextView
+		android:text=""
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/SubmitButton"
+		android:id="@+id/SubmitFeedback" />
+	<Button
+		android:text="@string/OldFeedbacks"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/SubmitFeedback"
+		android:id="@+id/FeedbackHistoryButton"
+		android:textAllCaps="false"
+		android:enabled="false" />
+</RelativeLayout>
